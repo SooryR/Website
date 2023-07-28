@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding-left: 90px;
+    padding-left: 140px;
     margin-top: calc(60px + 1vh);
     padding-bottom: 4vh;
   }
@@ -30,7 +30,7 @@
   .project ul {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: square;
   }
   
   .project li {

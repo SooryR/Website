@@ -5,51 +5,40 @@ function WorkPage() {
   return (
     <div className="work-page">
       <div className="work-container">
-        <h2>Bonfire</h2>
-        <p className="job-title">Software Development Engineer in Test (SDET)</p>
-        <p className="location-date">Waterloo, ON | May 2021 - Present</p>
+        <h2>RFRL</h2>
+        <p className="job-title">Full Stack Developer</p>
+        <p className="location-date">Toronto, Ontario, Canada | Jun 2021 - May 2022 · 1 year</p>
         <ul>
-          <li>Organized QA plans and performed testing and automate multiple web application based on procurement</li>
-          <li>Supervised a SDET team of 3+ co-op students across 3 teams to implement feature test cases and automation</li>
-          <li>Automated regression test using cypress and cucumber with 90% coverage</li>
-          <li>Made the regression test run on bitbucket pipeline nightly and produced report on the stability of the web applications</li>
-          <li>Added automated accessibility testing using Cypress and AXE accessibility framework</li>
-          <li>Implemented contract API test on the application using supertest, hapi lab and jest to automate 95% of the manual API test</li>
-          <li>Made the contrat API test and integration test to run on bitbucket pipeline so for each push to master branch</li>
+          <li>Developed screen-sharing feature using Vue.js and y.js, reducing costs and minimizing latency to deliver a seamless and responsive user experience.</li>
+          <li>Suggested the use of the sqlx golang ORM to simplify the encoding and decoding of data between Golang structs and Postgres databases, improving the efficiency and maintainability of the codebase.</li>
+          <li>Worked on code compiling service for the pair programming feature, enabling real-time collaboration and teamwork.</li>
+          <li>Added REST endpoints to sign in and sign up for RFRL platform.</li>
+          <li>Created tables in Postgres to outline tutors and mentees on the platform using golang migrate.</li>
+          <li>Developed screen-sharing feature using Vue.js and y.js, reducing costs and minimizing latency to deliver a seamless and responsive user experience.</li>
+          <li>Suggested the use of the sqlx golang ORM to simplify the encoding and decoding of data between Golang structs and Postgres databases, improving the efficiency and maintainability of the codebase.</li>
+          <li>Worked on code compiling service for the pair programming feature, enabling real-time collaboration and teamwork.</li>
+          <li>Added REST endpoints to sign in and sign up for RFRL platform.</li>
+          <li>Created tables in Postgres to outline tutors and mentees on the platform using golang migrate.</li>
         </ul>
+        <p>Skills: Go (Programming Language) · Back-End Web Development · WebSocket · Realtime Programming · Webrtc</p>
       </div>
       <div className="work-container">
-        <h2>PetHealth</h2>
-        <p className="job-title">QA Automation Analyst / Release Engineer</p>
-        <p className="location-date">Oakville, ON | March 2020 - May 2021</p>
+        <h2>RFRL</h2>
+        <p className="job-title">SDET (Internship)</p>
+        <p className="location-date">Toronto, Ontario, Canada | Jan 2021 - Jun 2021 · 6 months</p>
         <ul>
-          <li>Worked on multiple web application that are related to pet insurance</li>
-          <li>Implemented spec runner for specflow on the existing automation code to produce reports on the regressions status</li>
-          <li>Made adjustments to the existing automation code to runner faster on azure vm</li>
-          <li>Implemented load and capacity testing for a new project to see limits on what the server can handle</li>
-          <li>Created a test plan that contains QA requirement and business requirement to separate the task between QA and UAT testers</li>
-          <li>Created test plan and requirements for unit testing for internal tool</li>
-          <li>Implemented the unit testing on C# for many critical class part of the DAX crm program</li>
-          <li>Worked with developers to coordinate the release for each sprint using the azure pipeline and cloud service</li>
+          <li>Conducted manual stress, stability, and reliability testing to identify and resolve software issues, resulting in improved functionality and usability for end-users.</li>
+          <li>Provided valuable feedback to developers regarding front-end features, resulting in the elimination of errors and a more intuitive and user-friendly experience on the website.</li>
+          <li>Developed a comprehensive Test Plan and Test Strategy, providing a roadmap for testing and ensuring that all aspects of the software were thoroughly tested.</li>
+          <li>Implemented automated integration testing using jest, generating detailed and organized reports that made it easy to track progress and identify areas for improvement.</li>
+          <li>Conducted automated Smoke testing to maintain the stability and viability of the current build, preventing regressions and ensuring the software remained robust and reliable.</li>
+          <li>Contributed to the front-end development of the website, adding new features such as video chatting, screen-sharing, and improving the overall layout of the site.</li>
         </ul>
-      </div>
-      <div className="work-container">
-        <h2>Entripy</h2>
-        <p className="job-title">QA Engineer / Automation Developer</p>
-        <p className="location-date">Toronto, ON | March 2018 - March 2020</p>
-        <ul>
-          <li>Worked with multiple web applications</li>
-          <li>Created a regression package and sanity testing package for the web applications</li>
-          <li>Automated the regression package and smoke test package with selenium, C# and specflow</li>
-          <li>Find, reproduce, isolate, identify, report and tracked issues/bugs from developers and product managers</li>
-          <li>Choose BDD as the method of testing to make sure that the behavior of the application is functioning well</li>
-          <li>Wrote New test cases, and test plans for new features</li>
-          <li>Worked with Azure to run automated test with deployment, updated stories and features per sprint and pushed finished features to production on all five web applications</li>
-          <li>Used POSTman to run test with WebAPI</li>
-        </ul>
+        <p>Skills: Vue.js · Test Driven Development · Webrtc · Web Development · State Management · Integration Testing · JavaScript</p>
       </div>
     </div>
   );
 }
+
 
 export {WorkPage};
